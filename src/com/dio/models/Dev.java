@@ -33,14 +33,17 @@ public class Dev {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
     public Set<Contents> getSubscribedContents() {
+
         return subscribedContents;
     }
 
@@ -49,10 +52,12 @@ public class Dev {
     }
 
     public Set<Contents> getCompletedContents() {
+
         return completedContents;
     }
 
     public void setCompletedContents(Set<Contents> completedContents) {
+
         this.completedContents = completedContents;
     }
 
@@ -68,6 +73,7 @@ public class Dev {
 
     @Override
     public int hashCode() {
+
         return Objects.hash(nome, subscribedContents, completedContents);
     }
 }
